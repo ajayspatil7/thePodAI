@@ -1,6 +1,3 @@
-"""
-  For more samples please visit https://github.com/Azure-Samples/cognitive-services-speech-sdk 
-"""
 import random
 
 import azure.cognitiveservices.speech as speechsdk
