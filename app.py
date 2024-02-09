@@ -10,7 +10,7 @@ import script
 # import script
 
 # Creates an instance of a speech config with specified subscription key and service region.
-speech_key = "e4b7b71e56ba4fad8fb042d7ff7e1a35"
+speech_key = ""
 service_region = "eastus"
 
 # Different voices
