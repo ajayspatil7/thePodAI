@@ -14,5 +14,7 @@ def main():
     if st.button('Start'):
         print([text_input, host_input, duration])
 
+    return [text_input, host_input, duration]
+
 if __name__ == '__main__':
     main()

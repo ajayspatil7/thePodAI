@@ -25,8 +25,6 @@ text = script.script
 # use the default speaker as audio output.
 speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config)
 
-
-
 audio_config = speechsdk.audio.AudioOutputConfig(filename="./output.mp3")
 result = speech_synthesizer.speak_text_async(text).get()
 
